@@ -1,4 +1,4 @@
-Base URL: https://laurengodwin.github.io/MART-441/
+Base URL: https://laurengodwin.github.io/Web-Tech-441/
 <h1>Welcome to my MART 441 page!</h1>
 <h2>About Me:</h2>
 <br>
