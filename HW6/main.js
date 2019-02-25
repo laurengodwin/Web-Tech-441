@@ -2,7 +2,7 @@
 var imageTags = ["image1", "image2", "image3", "image4", "image5",
  "image6","image7", "image8", "image9", "image10"];
 // blank images
-var blankImagePath = "HW6/images/puzzle.jpg";
+var blankImagePath = "images/puzzle.jpg";
 // actuall images
 var actualImages = new Array();
     
@@ -23,7 +23,7 @@ function printBlanks()
 function createRandomImageArray()
 {
     // array of actual images
-    var actualImagePath = ["HW6/images/apple.jpg", "HW6/images/peppers.jpg", "HW6/images/orange.jpg", "HW6/images/strawberries.jpg", "HW6/images/pea.jpg"];
+    var actualImagePath = ["images/apple.jpg", "images/peppers.jpg", "images/orange.jpg", "images/strawberries.jpg", "images/pea.jpg"];
    
     var count = [0,0,0,0];
     
