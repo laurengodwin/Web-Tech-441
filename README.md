@@ -1,9 +1,5 @@
-# Web-Tech-441
-MART 441 homework
-
-<h1>Homework Week 6</h1>
-<p>https://laurengodwin.github.io/Web-Tech-441/  </p>
-<p>I had a hectic week last week, so therefore I did not complete week 5 homework.
-<br>Trying to catch is a little hard but I am having the same problem from the beginning.<br>
-I can't figure out how to get my "HW-6" link to work. It just shows up as "Error: 404...."
-<br>I always seem to miss one small detail that doesn't allow my code to work.<p>
+Base URL: https://laurengodwin.github.io/MART-441/
+<h1>Welcome to my MART 441 page!</h1>
+<h2>About Me:</h2>
+<br>
+<p>I am a senior at the UM, hoping to do something with either UX Design or website design. I love the creating/design aspect of web design, however I am not very good at coding. I would much rather use WordPress.</p> 

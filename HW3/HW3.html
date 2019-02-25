@@ -1,0 +1,60 @@
+<html>
+
+  <head>
+        <meta charset="utf-8">
+        <title>Adventure Story</title>
+        <style>body{background-color:lavender}</style>
+
+  </head>
+
+  <body>
+<div class="hero"></div>     
+<div class="button"></div>
+
+<h1>Are you ready to start?</h1>
+<div id="text"></div>
+<div app>
+  <div> 
+
+ <id="input" onsubmit="start()">
+       
+        <left><button type="submit" class="start" onclick="display()">YES</button></left>
+        
+  </div>
+</div>
+
+<script>
+var a = document.getElementById("input").style.color = "blue";
+var b;
+function display() {
+	a.style.display = "none";
+  start = function start() {
+  var reply = confirm("Are you ready?");
+    if (reply === false) {
+      alert("You're quitting already?");
+      alert("You are no fun!");
+ 	}
+}
+
+  else {
+    game();
+    console.log("start");
+  }
+ };
+function game() {
+  document.getElementById("text").innerHTML = "You are driving in Missoula, MT and the roads are very icy.";
+  var firstQuestion = prompt("Your vehicle starts to slide. What do you do? <br>Hit the breaks or stay calm");
+if (firstQuestion === "Hit the breaks"){
+  alert("Are you crazy! You'll spin out of control!");
+}
+  else{
+    alert("Good job, make sure you keep your wheel straight.");
+  }
+  //Press enter to continue.
+  console.log("story");
+}
+</script>
+</div>
+</div>
+  </body>
+</html>
