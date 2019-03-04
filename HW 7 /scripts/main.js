@@ -55,11 +55,15 @@ function initializeArray()
     myViewFinderArray.push(myViewFinder4);
 
 }
+function getRandomIndex(a){
+    return Math.floor(Math.random(a) * 5);  
+}
+
 function accessInformation()
 {
-    /// random object from the array
-    //console.log(myViewFinder.toString());
-    //console.log(myViewFinder.theTitle);
+    randIndex = getRandomIndex(5);
+    console.log(getRandomIndex());
+    
     document.getElementById("image").innerHTML = myViewFinderArray[randIndex].toStringImage();
     document.getElementById("title").innerHTML = myViewFinderArray[randIndex].toStringTitle();
     document.getElementById("author").innerHTML = myViewFinderArray[randIndex].toStringAuthor();
