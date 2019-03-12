@@ -1,6 +1,6 @@
-var dogSelector = "#dog";
-var allDogs = new Array();
-class DogInfo{
+var foodSelector = "#food";
+var allFoods = new Array();
+class FoodInfo{
     constructor(selector, imagePath)
     {
         this.selector = selector;
@@ -23,28 +23,24 @@ class DogInfo{
 
 function initializeArray()
 {
-    var dog = new DogInfo("#dog", "images/dog.jpg");
-    allDogs.push(dog);
+    var food = new FoodInfo("#food", "images/platter.jpg");
+    allFoods.push(food);
 
 }
 $(document).ready(function(){
-    console.log(allDogs[0].toString());
-    console.log(allDogs[0].theSelector);
-    console.log(allDogs[0].theImagePath);
+    console.log(allFoods[0].toString());
+    console.log(allFoods[0].theSelector);
+    console.log(allFoods[0].theImagePath);
     
-    //$(allDogs[0].theSelector).src = allDogs[0].theImagePath;
-    //$("#my_image").attr("src","second.jpg");
-    $(allDogs[0].theSelector).attr("src", allDogs[0].theImagePath);
+    
+    $(allFoods[0].theSelector).attr("src", allFoods[0].theImagePath);
 
     $("button").click(function(){
        
         $(".stuff").fadeOut();
 
         $("#third").toggle();
-          // setInterval(moveSquare, 1000);
-        
-       // $(allDogs[0].theSelector).fadeOut().fadeIn();
-        
+          
     });
     
 });
