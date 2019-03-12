@@ -1,6 +1,7 @@
-var foodSelector = "#food";
+var platterSelector = "#platter";
+var pancakesSelector = "#pancakes";
 var allFoods = new Array();
-class FoodInfo{
+class PlatterInfo{
     constructor(selector, imagePath)
     {
         this.selector = selector;
@@ -20,11 +21,34 @@ class FoodInfo{
         return this.selector + ":" + this.imagePath; 
     }
 }
+    class PancakeInfo{
+        constructor(selector, imagePath)
+        {
+            this.selector = selector;
+            this.imagePath = imagePath;
+        }
+    
+        get theSelector(){
+            return this.selector;
+        }
+    
+        get theImagePath(){
+            return this.imagePath;
+        }
+    
+        toString()
+        {
+            return this.selector + ":" + this.imagePath; 
+        }
+    }
+}
 
 function initializeArray()
 {
-    var food = new FoodInfo("#food", "images/platter.jpg");
-    allFoods.push(food);
+    var platter = new PlatterInfo("#platter", "images/platter.jpg");
+    allPlatter.push(platter);
+    var pancakes = new PancakeInfo("#pancakes", "images/pancakes.jpg");
+    allPancakes.push(pancakes);
 
 }
 $(document).ready(function(){
