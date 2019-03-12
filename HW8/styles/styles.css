@@ -1,0 +1,20 @@
+ #square {
+      width: 100px;
+      height: 100px;
+      background: lightcyan;
+      position: absolute;
+      left: 0;
+      top: 300;
+    }
+
+    .stuff{
+      background: lightgrey;
+    }
+
+    #third{
+      background: lightgoldenrodyellow;
+    }
+
+    body{
+        background-color: white;
+    }
