@@ -52,12 +52,12 @@ function initializeArray()
 
 }
 $(document).ready(function(){
-    console.log(allFoods[0].toString());
-    console.log(allFoods[0].theSelector);
-    console.log(allFoods[0].theImagePath);
+    console.log(allFoods[2].toString());
+    console.log(allFoods[2].theSelector);
+    console.log(allFoods[2].theImagePath);
     
     
-    $(allFoods[0].theSelector).attr("src", allFoods[0].theImagePath);
+    $(allFoods[2].theSelector).attr("src", allFoods[2].theImagePath);
 
     $("button").click(function(){
        
