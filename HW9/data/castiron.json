@@ -1,0 +1,12 @@
+{
+    "manufacturer" : "Griswold",
+    "model" : "#12",
+    "owner" : {
+        "firstName" : "Mixed",
+        "lastName" : "Kreations"
+    },
+    "sizes" : [
+        "12 inch skillet",
+        
+    ]
+}

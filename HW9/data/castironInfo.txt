@@ -1,0 +1,6 @@
+<castiron>
+	<manufacturer>Griswold</manufacturer>
+	<model>#12</model>
+	<year>Pre-1900's</year>
+	<price>$50</price>
+</castiron>
