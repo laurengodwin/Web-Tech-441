@@ -75,9 +75,7 @@ class Ball {
         }
     }
 
-    //////////////////////////////////////////////////
-    //      BALL CLASS DEFINITION
-    //////////////////////////////////////////////////
+   
     class Ball2 {
         constructor(x, y, size, color) {
             this.color = color;
