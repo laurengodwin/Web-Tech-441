@@ -237,6 +237,7 @@ class MarchingDude {
             this.loc_y = abs(this.move_y);
         }
     }
+    //mouse follower
     var canvas,
 	ctx,
 	width,
