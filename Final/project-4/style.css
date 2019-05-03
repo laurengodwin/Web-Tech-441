@@ -1,0 +1,70 @@
+/* Fonts/text */
+h1 {
+	font-family: 'raleway', sans-serif;
+  color: #5f6060;
+}
+
+h2 {
+	font-family: 'raleway', sans-serif;
+	color: white;
+}
+
+P {
+  font-family: 'raleway', sans-serif;
+	color: #3d3d3d;
+}
+
+/* pictures */
+.image img {
+      align-content: center;
+      height: auto;
+      max-width: 100%;
+		}
+
+/* navigation to additional links */
+	.active {
+							 background-color: #dd876c;
+							 text-align: center;
+             }
+
+               li {
+							   text-align: center;
+							   display: inline-block;
+                 width: auto;
+                 height: auto;
+
+							 }
+
+							 li a {
+							     display: inherit;
+							     color: #5f6060;
+							     text-align: center;
+							     padding: 18px 20px;
+                   text-decoration: underline;
+							 }
+
+							 /* the link color will change on hover */
+							 li a:hover {
+							     background-color: #deefe7;
+							     text-align: center;
+							 }
+
+/* FlexBox */
+	#container {
+	            display: flex;
+	            flex-wrap: nowrap;
+	            font-family: 'raleway', sans-serif;}
+
+	.rect-1 {
+	             background-color: #1bc4d1;
+	             width: 100%;
+	             text-align: center;
+	             padding: 10px;
+							 color: #404449;}
+  }
+
+
+	@media screen and (min-width: 1000px) {
+	                                       .rect-1 {
+	                                                    width: 100%;}
+	                                                                    }
